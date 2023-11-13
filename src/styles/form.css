@@ -1,0 +1,58 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+input {
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  background-color: transparent;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sumbit-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.reset-btn {
+  border: 1px solid #000;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
